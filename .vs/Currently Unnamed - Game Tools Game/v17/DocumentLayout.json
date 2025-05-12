@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{93EC1885-7B7B-2358-BF6D-FBD0F4EA0639}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93EC1885-7B7B-2358-BF6D-FBD0F4EA0639}|Assembly-CSharp.csproj|c:\\users\\cilli\\currently unnamed - game tools game\\assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93EC1885-7B7B-2358-BF6D-FBD0F4EA0639}|Assembly-CSharp.csproj|C:\\Users\\cilli\\Currently Unnamed - Game Tools Game\\assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93EC1885-7B7B-2358-BF6D-FBD0F4EA0639}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
               "ToolTip": "C:\\Users\\cilli\\Currently Unnamed - Game Tools Game\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T11:32:30.109Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerAttack.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T20:28:36.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T20:28:36.24Z"
             },
             {
               "$type": "Document",

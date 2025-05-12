@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    
+    [SerializeField] private Transform player;
+    [SerializeField] private float aheadDist;
+    [SerializeField] private float speed;
+    private float lookAhead;
 
-    void Start()
+    private void Update()
     {
-        
-    }
-
-    void Update()
-    {
-        
+        transform.position = new Vector3(player.position.x + lookAhead, transform.position.y, transform.position.z);
+        lookAhead = Mathf.Lerp(lookAhead, (aheadDist * player.localScale.x), Time.deltaTime * speed);
     }
 }
