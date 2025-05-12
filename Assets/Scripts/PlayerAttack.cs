@@ -9,9 +9,11 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private GameObject[] beerBalls;
     private float cooldownTimer = Mathf.Infinity;
     private PlayerMovement PlayerMovement;
+    private Animator anim;
 
     private void Start()
     {
+        anim = GetComponent<Animator>();
         PlayerMovement = GetComponent<PlayerMovement>();
     }
 
@@ -25,6 +27,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void Attack()
     {
+        anim.SetTrigger("shoot");
         cooldownTimer = 0;
 
         foreach (GameObject beerBall in beerBalls)
